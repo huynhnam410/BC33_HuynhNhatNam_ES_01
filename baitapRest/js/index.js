@@ -12,3 +12,8 @@ document.querySelector("#btnKhoi1").onclick = () => {
     let Diem =document.querySelectorAll("#khoi1 input");
     document.querySelector("#tbKhoi1").innerHTML=CalAvr(+Diem[0].value,+Diem[1].value,+Diem[2].value);
 }
+
+document.querySelector("#btnKhoi2").onclick = () => {
+    let Diem =document.querySelectorAll("#khoi2 input");
+    document.querySelector("#tbKhoi2").innerHTML=CalAvr(+Diem[0].value,+Diem[1].value,+Diem[2].value);
+}
